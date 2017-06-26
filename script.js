@@ -49,8 +49,9 @@ var config = {
    	 $("#destination-input").html(snapshot.val().destination);
    	 $("#firstTrain-input").html(snapshot.val().firstTrain-input);
    	 $("#frequency-input").html(snapshot.val().frequency);
-
-   	 $("#train-table").apend("<tr><td>" + Name + "</td><td" + destination + "</td><td>" + firstTrainTime + "</td><td>"+ frequency "</td></tr>");
+    
+     // The console was showing an error on the line below
+   	 $("#train-table").append("<tr><td>" + Name + "</td><td" + destination + "</td><td>" + firstTrainTime + "</td><td>"+ frequency + "</td></tr>");
  
 
 
