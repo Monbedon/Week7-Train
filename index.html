@@ -5,28 +5,16 @@
   <head>
 
     <meta charset="UTF-8">
+    
     <title>Train Tracker</title>
-
-  
+    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
     
-    <script src="https://www.gstatic.com/firebasejs/4.1.2/firebase.js"></script>
-
-    
-    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
-
-	
   </head>
 
   <body>
-
    
     <div class="container">
-
-
  
       <div class="jumbotron" style="background-color: green; color: white">
         <h1 class="text-center">Train Tracker</h1>
@@ -97,7 +85,13 @@
 
     </div>
 
+    <!-- You'll want to keep `script` tags at the bottom of your page so they don't block rendering -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.1.2/firebase.js"></script>
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
 
+    <!-- …but above you're own JS so it has access to the libraries above -->
     <script src="script.js"></script>
 
   </body>
